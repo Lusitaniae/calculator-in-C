@@ -11,7 +11,7 @@ main() {
        scanf("%f", &OP2);
        printf("Choose Operation ( + - * / ):");
        fflush(stdin);
-       scanf("%c", &caracter);
+       scanf(" %c", &caracter);
        
        switch (caracter){
               case '+': printf("Sum result: %f", OP1+OP2); break;
