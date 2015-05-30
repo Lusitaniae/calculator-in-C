@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h> // for getch
  
 main() {
        float OP1, OP2;
@@ -25,7 +24,7 @@ main() {
               default: printf("Invalid Operation");  
        }
        
-       getch();
+       getchar();
        
        
 }
